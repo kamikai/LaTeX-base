@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+
+
+%% ==============
+%% PREAMBLE BEGIN
+%% ==============
+
+\usepackage[bottom]{footmisc}  % Footnotes on the bottom.
+\usepackage[margin=1in]{geometry}
+\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage{changepage}
+\usepackage{float}  % Force image positioning.
+\usepackage{graphicx}  % Include figures into PDF.
+\usepackage{setspace}
+\usepackage{color}  % Allow coloured sections indicating needing updates.
+
+
+% Use round brackets for citations.
+\setcitestyle{round}
+
+% Remove automatic paragraph indent.
+\setlength{\parindent}{0pt}
+
+\renewcommand{\baselinestretch}{1.4}
+
+\bibliographystyle{plainnat}  % Set the bibliography style.
+% \setcitestyle{authoryear,open={(},close={)}}  % Enclose with parenthesis.
+
+
+%% Custom variables can be defined here.
+
+% \newcommand{\proj}{The Project Name}
+
+
+%% ============
+%% PREAMBLE END
+%% ============
+
+\begin{document}
+	\input{parts/0_cover}
+	\input{parts/1_introduction}
+	% \input{parts/2_methods}
+	% \input{parts/3_results}
+	% \input{parts/4_discussion}
+	\input{parts/5_references}
+\end{document}

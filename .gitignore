@@ -1,0 +1,10 @@
+*.aux
+*.bbl
+*.blg
+*.log
+*.toc
+*.pdf
+
+*.DS_Store
+.ipynb_checkpoints/
+*.pyg
