@@ -3,7 +3,9 @@
 doc = document
 
 default:
+	@bash version_load.sh
 	pdflatex $(doc)
+	rm vc.tex
 
 withrefs: default
 	@bibtex $(doc)  # Compile references.
